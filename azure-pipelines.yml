@@ -9,7 +9,7 @@ steps:
     actions: 'build'
     scheme: 'FitAI-iOS'
     configuration: 'ProductionRelease'
-    xcWorkspacePath: 'FitAI-iOS/iOS-FitAI/iOS-FitAI.xcodeproj'
+    xcWorkspacePath: 'iOS-FitAI/iOS-FitAI.xcodeproj'
     sdk: 'iphonesimulator'
     buildArguments: '-derivedDataPath Build/'
     args: '-destination "platform=iOS Simulator,name=iPhone Prod iOS17" -derivedDataPath Build/ CODE_SIGNING_ALLOWED=NO'
